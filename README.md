@@ -17,8 +17,9 @@
 
 ## Como ejecutar el proyecto
  Clona el repositorio en tu terminal
-``` bash https://github.com/LinoLing/Senati_proyectos.git ```
+``` bash https://github.com/LinoLing/Plataforma_de_videojuegos.git ```
 
 ## Autores
 
 - Lino Ling 🕹️
+
