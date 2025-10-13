@@ -1,7 +1,7 @@
  ## Plataforma_de_videojuegos
 
 ## Descripción
-
+Proyecto que nos permite aprender mas acerca del frontend y backend
 
 ## Características Principales
 - Repositorio Guia
