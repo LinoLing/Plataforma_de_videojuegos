@@ -30,7 +30,7 @@ Explicación breve de las carpetas principales.
 
 ## Equipo
 - **Scrum Master:** Lino Carlos Ling Rodriguez
-- **Product Owner:** senatiproyectos plataforma de compra de juegos
+- **Product Owner:** GameZone
 - **Developers:** Lino Carlos Ling Rodriguez
 
 ## Instalación y Uso
