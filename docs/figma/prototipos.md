@@ -2,7 +2,11 @@
 
 ## Información del Documento
 
+<<<<<<< HEAD
 **Última actualización:** [18/10/2025]  
+=======
+**Última actualización:** [13/10/2025]  
+>>>>>>> 4ca51682c20b72cb0d1350ad6eae84d32d680d16
 **Versión del prototipo:** [v1.0]  
 **Herramienta:** Figma  
 
@@ -192,7 +196,11 @@ R: Selecciona el elemento → Export → Configura formato y resolución → Exp
 
 ## Contacto y Soporte
 
+<<<<<<< HEAD
 **Responsable de diseño:** [Lino Ling]  
+=======
+**Responsable de diseño:** [Nombre]  
+>>>>>>> 4ca51682c20b72cb0d1350ad6eae84d32d680d16
 **Canal de comunicación:** [Slack, Discord, etc.]  
 **Horario de disponibilidad:** [Especificar]
 
@@ -219,6 +227,11 @@ R: Selecciona el elemento → Export → Configura formato y resolución → Exp
 
 ---
 
+<<<<<<< HEAD
 **Última actualización:** [18/10/2025]  
 **Mantenido por:** [GameZone/Lino Ling]  
+=======
+**Última actualización:** [Fecha]  
+**Mantenido por:** [Equipo de diseño/Product Owner]  
+>>>>>>> 4ca51682c20b72cb0d1350ad6eae84d32d680d16
 **Versión del documento:** 1.0
