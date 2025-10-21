@@ -22,5 +22,5 @@ app.get('/', (req, res) =>{
 app.use('/api/users',userRoutes);
 
 app.listen(PORT, () => {
-    console.log('Servidor corriendo exitosamente ${PORT}');
+    console.log(`Servidor corriendo y escuchando en el puerto ${PORT}`);
 });

@@ -1,10 +1,10 @@
-//Traer el servicio
-import { userServices } from "../services/userServices.js"
+import { message } from "statuses";
+import {userServices} from "../services/userServices.js";
 
 export const userController = {
-    async getUser(res){
+    async getUser(req, res){
         try{
-            const users = await servicio.getAllUsers();
+            const users = await userServices.getUser();
             res.status(200).json({
                 success: true,
                 data:users
@@ -37,6 +37,26 @@ export const userController = {
         }catch(error){
             res.status(500).json({
                 success:false,
+                message:error.message
+            });
+        }
+    },
+
+    async updateUser(req, res){
+        try{
+            const {id} = req.params;
+            const updateData = req.body;
+
+            const updateUser = await userServices.updateUser(id, updateData);
+
+            res.status(200).json({
+                succes:true,
+                data:updateUser,
+                message: "Usuario actualizado correctamente"
+            });
+        }catch(error){
+            res.status(500).json({
+                succes:false,
                 message:error.message
             });
         }
