@@ -1,4 +1,3 @@
-import { message } from "statuses";
 import {userServices} from "../services/userServices.js";
 
 export const userController = {
