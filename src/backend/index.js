@@ -19,8 +19,8 @@ app.get('/', (req, res) =>{
 });
 
 //Rutas que deseo usar
-app.use('api/users',userRoutes);
+app.use('/api/users',userRoutes);
 
-app.listen(PORT, ()=>{
-    console.log('Servidor corriendo exitosamente')
-})
+app.listen(PORT, () => {
+    console.log('Servidor corriendo exitosamente ${PORT}');
+});

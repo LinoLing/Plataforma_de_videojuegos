@@ -23,20 +23,20 @@ export const userController = {
             //validacion basica
             if(!email || !name){
                 return res.status(400).json({
-                    success: false,
+                    success:false,
                     message:'Email y nombre son obligatorios'
                 });
             }
 
             const newUser = await userServices.createUser({email, name});
             res.status(201).json({
-                success: true,
+                success:true,
                 data: newUser,
                 message: 'Usuario creado correctamente'
             });
         }catch(error){
             res.status(500).json({
-                success: false,
+                success:false,
                 message:error.message
             });
         }
