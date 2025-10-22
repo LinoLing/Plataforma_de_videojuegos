@@ -1,4 +1,3 @@
-import { description } from 'commander';
 import swaggerJsdoc from 'swagger-jsdoc';
 const swaggerOptions = {
     definition: {
