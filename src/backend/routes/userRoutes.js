@@ -105,10 +105,29 @@ router.post('/',userController.createUser);
  *        description: Error del servidor
 */
 
-//Rutas para el usuario
-
-
 router.put('/:id', userController.updateUser);
+
+/**
+ * @swegger
+ * /api/users/{id}:
+ *  delete:
+ *    summary: Eliminar un usuario por ID
+ *    tags: [Users]
+ *    parameters:
+ *      - in: path
+ *        name: id
+ *        required: true
+ *        schema:
+ *          type: integer
+ *        description: ID del usuario a eliminar
+ *    responses:
+ *      201:
+ *        description: Actualizado correctamente
+ *      400:
+ *        description: Datos invalidos
+ *      500:
+ *        description: Error del servidor
+ */
 
 //Metodo para eliminar DELETE
 //Metodo para modificar PATCH

@@ -59,5 +59,16 @@ export const userController = {
                 message:error.message
             });
         }
+    },
+
+    async deleteUser(req, res){
+        try{
+            const {id} = req.params;
+            const deleteData = req.body;
+
+            const deleteUser = await userServices.deleteUser(id, deleteData);
+        }catch(error){
+            
+        }
     }
 }
