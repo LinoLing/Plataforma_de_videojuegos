@@ -5,7 +5,7 @@ const swaggerOptions = {
         info: {
             title: 'Mi API REST',
             version: '1.0.0',
-            description: 'Documentacion de API REST con Express, Prisma',
+            description: 'Documentacion de API REST con Express, Prisma y PostgreSQL',
             contact:{
                 email:"linocarloslingrodriguez@gmail.com"
             }
