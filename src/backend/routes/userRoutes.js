@@ -108,26 +108,43 @@ router.post('/',userController.createUser);
 router.put('/:id', userController.updateUser);
 
 /**
- * @swegger
- * /api/users/{id}:
+ * @swagger
+ * /api/users/{name}:
  *  delete:
- *    summary: Eliminar un usuario por ID
+ *    summary: Eliminar un usuario por Name
  *    tags: [Users]
  *    parameters:
  *      - in: path
- *        name: id
+ *        name: name
  *        required: true
  *        schema:
- *          type: integer
- *        description: ID del usuario a eliminar
+ *          type: string
+ *        description: Nombre del usuario a eliminar
+ *    requestBody:
+ *      required: true
+ *      content:
+ *        application/json:
+ *          schema:
+ *            type: object
+ *            properties:
+ *              email:
+ *                type: string
+ *                example: pablito@gmail.com
+ *              name:
+ *                type: string
+ *                example: Pablo
+ *              message:
+ *                type: string
+ *                example: Usuario eliminado correctamente
  *    responses:
- *      201:
- *        description: Actualizado correctamente
- *      400:
- *        description: Datos invalidos
+ *      200:
+ *        description: Usuario eliminado correctamente
+ *      404:
+ *        description: Usuario no encontrado
  *      500:
  *        description: Error del servidor
  */
+router.delete('/:name', userController.deleteUser);
 
 //Metodo para eliminar DELETE
 //Metodo para modificar PATCH
